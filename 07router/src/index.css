@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+nav{
+  display: flex;
+  background: #878787;
+  color: rgb(255, 255, 255);
+  gap: 30px;
+  justify-content: center;;
+}
+
+li{
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.blue{
+  background-color: rgb(76, 185, 240);
+  color: #1a1a1a;
+}
