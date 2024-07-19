@@ -34,7 +34,7 @@ function App() {
   {
     path:"/blogs/",
     element:<><Navbar/><Blogs/></>
-  }
+  },
  ])
 
   return (

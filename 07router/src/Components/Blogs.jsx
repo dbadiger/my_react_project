@@ -35,7 +35,10 @@ const paginate=(pageNumber)=>setcurrentPage(pageNumber);
         <div className='container'>
         <h1>MY Blogs</h1>
         <Posts posts={curretPost} loading={loading}/>
-        <Pagination postsPerPage={postsPerPage} totalPages={posts.length} paginate={paginate}/>
+        <Pagination postsPerPage={postsPerPage}
+         totalPages={posts.length} 
+         setcurrentPage={setcurrentPage}
+         paginate={paginate}/>
         </div>
         </>
     )
