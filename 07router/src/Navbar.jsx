@@ -11,6 +11,7 @@ const Navbar=()=>{
                 <NavLink to="/contact-us" className={(e)=>{return e.isActive?"blue":""}}><li>Contact</li></NavLink>
                 <NavLink to="/login" className={(e)=>{return e.isActive?"blue":""}}><li>Login</li></NavLink>
                 <NavLink to="/user" className={(e)=>{return e.isActive?"blue":""}}><li>User</li></NavLink>
+                <NavLink to="/blogs/"><li>Blogs</li></NavLink>
                 
             </nav>
         </div>

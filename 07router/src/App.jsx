@@ -6,6 +6,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Login from './Components/Login'
 import User from './Components/User'
+import Blogs from './Components/Blogs'
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
     path:"/user/:username",
     element:<><Navbar/><User/></>
   },
+  {
+    path:"/blogs/",
+    element:<><Navbar/><Blogs/></>
+  }
  ])
 
   return (
